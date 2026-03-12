@@ -35,9 +35,9 @@ const run = (cmd) => {
 
 console.log('UNB Development Bootstrap\n');
 
-run('node scripts/mongo.js');
-run('node scripts/migrate.js');
-run('node scripts/seed.js');
+run('node scripts/dev/mongo.js');
+run('node scripts/dev/migrate.js');
+run('node scripts/dev/seed.js');
 
 console.log(`\nStarting UNB server...\n`);
 

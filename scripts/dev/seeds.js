@@ -23,6 +23,7 @@
 
 const fs = require('fs').promises;
 const path = require('path');
+const UNB_SETTINGS_SCHEMA = require('../../src/settings/settings.schema');
 
 /**
  * Process all seeds for development purposes.
@@ -49,30 +50,41 @@ const processSeeds = async (db) => {
     };
 
     for (const [name, collection] of Object.entries(collections)) {
-        const nameLowered = name.toLowerCase();
+        if (name === 'settings') {
+            console.log('Processing seed: settings...');
 
-        console.log(`Processing seed: ${name}...`);
+            Object.entries(UNB_SETTINGS_SCHEMA).map(([key, schema]) => ({
+                key,
+                value: schema.defaultValue ?? null
+            }));
 
-        const filePath = path.join('seeds', `${nameLowered}.json`);
+            console.log('Seed settings planted.');
+        } else {
+            const nameLowered = name.toLowerCase();
 
-        try {
-            const fileData = await fs.readFile(filePath, { encoding: 'utf8' });
-            const json = JSON.parse(fileData);
+            console.log(`Processing seed: ${name}...`);
 
-            if (!json || !Array.isArray(json)) {
-                console.error(`Data is missing for seed: ${name}.`);
+            const filePath = path.join('seeds', `${nameLowered}.json`);
+
+            try {
+                const fileData = await fs.readFile(filePath, { encoding: 'utf8' });
+                const json = JSON.parse(fileData);
+
+                if (!json || !Array.isArray(json)) {
+                    console.error(`Data is missing for seed: ${name}.`);
+                    process.exit(1);
+                }
+
+                for (const seed of json) {
+                    await collection.insertOne(seed);
+                }
+            } catch (error) {
+                console.error(`Failed to process seed: ${name}:`, error);
                 process.exit(1);
             }
 
-            for (const seed of json) {
-                await collection.insertOne(seed);
-            }
-        } catch (error) {
-            console.error(`Failed to process seed: ${name}:`, error);
-            process.exit(1);
+            console.log(`Seed ${name} planted.`);
         }
-
-        console.log(`Seed ${name} planted.`);
     }
 };
 

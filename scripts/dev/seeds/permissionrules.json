@@ -1,1 +1,895 @@
-[]
+[
+  {
+    "key": "administration.access",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "administration.admincp.panel",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "moderation.access",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "moderation.toolbox",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "help.access",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "features.access",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "features.members",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "features.whos.online",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "features.search",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "features.tags",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "features.groups",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "features.retroactive.timeline",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "features.cookie.management",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "features.help",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.font",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.size",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.color",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.bold",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.italic",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.underline",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.strikethrough",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.indent",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.outdent",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.subscript",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.superscript",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.align.left",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.align.center",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.align.right",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.align.justify",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.orderedlist",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.unorderedlist",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.undo",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.redo",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.insert.hyperlink",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.insert.image",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.insert.media",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.insert.quote",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.insert.code",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.insert.gif",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.insert.emoji",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.insert.horizontal.rule",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "editor.toolbar.insert.spoiler",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  },
+  {
+    "key": "forum.view",
+    "scopeType": "global",
+    "scopeKey": null,
+    "enabled": true,
+    "users": {
+      "allow": [],
+      "deny": []
+    },
+    "groups": {
+      "allow": [
+        "administrators",
+        "moderators",
+        "members",
+        "guests"
+      ],
+      "deny": []
+    },
+    "updatedAt": "2026-03-11T23:00:37.795Z",
+    "updatedBy": "system.seed"
+  }
+]

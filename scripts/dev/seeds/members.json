@@ -1,43 +1,301 @@
 [
-    {
-        "key": "member_mmlqcc78_seL54w",
-        "username": "devbob",
-        "displayName": "Development Bob",
-        "useDisplayName": true,
-        "passwordHash": "",
-        "emailAddress": "bob@ultimatenodeboard.com",
-        "locale": "en-US",
-        "theme": "unb-default",
-        "themeMode": "dark",
-        "settings": {
-            "dateTime": {
-                "timeZone": "America/Denver",
-                "format": {
-                    "date": "MM/dd/yyyy",
-                    "time": "hh:mm a",
-                    "full": "MM/dd/yyyy hh:mm a"
-                },
-                "timeAgo": true
-            },
-            "pagination": {
-                "limit": {
-                    "topics": 30,
-                    "posts": 30
-                }
-            },
-            "topics": {
-                "preview": true
-            },
-            "editor": {
-                
-            }
-        },
-        "primaryGroup": "administrators",
-        "secondaryGroups": null,
-        "photo": {
-            "type": "uploaded",
-            "key": ""
-        },
-        "lastVisit": ""
-    }
+	{
+		"key": "member_1",
+		"username": "devbob",
+		"displayName": "Development Bob",
+		"useDisplayName": true,
+		"passwordHash": "$2b$10$5b/c6Is.a8nomow1dVy8A.6.Gb1FYTMfI53G1ujU7nq00.9TPUdMe",
+		"emailAddress": "bob@ultimatenodeboard.com",
+		"locale": "en-US",
+		"theme": "unb-default",
+		"themeMode": "dark",
+		"settings": {
+			"dateTime": {
+				"timeZone": "America/Denver",
+				"format": {
+					"date": "MM/dd/yyyy",
+					"time": "hh:mm a",
+					"full": "MM/dd/yyyy hh:mm a"
+				},
+				"timeAgo": true
+			},
+			"pagination": {
+				"limit": {
+					"topics": 30,
+					"posts": 30
+				}
+			},
+			"topics": {
+				"preview": true
+			},
+			"editor": {
+				"defaultFont": "Google Sans Flex",
+				"defaultFontSize": 15,
+				"defaultFontColor": "#FFFFFF"
+			},
+			"sidebar": {
+				"posts": {
+					"enabled": true,
+					"position": "right"
+				}
+			}
+		},
+		"primaryGroup": "administrators",
+		"secondaryGroups": null,
+		"photo": {
+			"type": "uploaded",
+			"key": ""
+		},
+		"lastVisit": ""
+	},
+
+	{
+		"key": "member_2",
+		"username": "techalice",
+		"displayName": "Tech Alice",
+		"useDisplayName": true,
+		"passwordHash": "$2b$10$5b/c6Is.a8nomow1dVy8A.6.Gb1FYTMfI53G1ujU7nq00.9TPUdMe",
+		"emailAddress": "alice@ultimatenodeboard.com",
+		"locale": "en-US",
+		"theme": "unb-default",
+		"themeMode": "light",
+		"settings": {
+			"dateTime": {
+				"timeZone": "America/New_York",
+				"format": {
+					"date": "MM/dd/yyyy",
+					"time": "hh:mm a",
+					"full": "MM/dd/yyyy hh:mm a"
+				},
+				"timeAgo": true
+			},
+			"pagination": {
+				"limit": {
+					"topics": 25,
+					"posts": 25
+				}
+			},
+			"topics": {
+				"preview": true
+			},
+			"editor": {
+				"defaultFont": "Inter",
+				"defaultFontSize": 16,
+				"defaultFontColor": "#000000"
+			},
+			"sidebar": {
+				"posts": {
+					"enabled": true,
+					"position": "left"
+				}
+			}
+		},
+		"primaryGroup": "members",
+		"secondaryGroups": null,
+		"photo": {
+			"type": "uploaded",
+			"key": ""
+		},
+		"lastVisit": ""
+	},
+
+	{
+		"key": "member_3",
+		"username": "codermax",
+		"displayName": "Coder Max",
+		"useDisplayName": true,
+		"passwordHash": "$2b$10$5b/c6Is.a8nomow1dVy8A.6.Gb1FYTMfI53G1ujU7nq00.9TPUdMe",
+		"emailAddress": "max@ultimatenodeboard.com",
+		"locale": "en-GB",
+		"theme": "unb-default",
+		"themeMode": "dark",
+		"settings": {
+			"dateTime": {
+				"timeZone": "Europe/London",
+				"format": {
+					"date": "dd/MM/yyyy",
+					"time": "HH:mm",
+					"full": "dd/MM/yyyy HH:mm"
+				},
+				"timeAgo": true
+			},
+			"pagination": {
+				"limit": {
+					"topics": 40,
+					"posts": 40
+				}
+			},
+			"topics": {
+				"preview": true
+			},
+			"editor": {
+				"defaultFont": "JetBrains Mono",
+				"defaultFontSize": 14,
+				"defaultFontColor": "#E6E6E6"
+			},
+			"sidebar": {
+				"posts": {
+					"enabled": true,
+					"position": "right"
+				}
+			}
+		},
+		"primaryGroup": "members",
+		"secondaryGroups": ["developers"],
+		"photo": {
+			"type": "uploaded",
+			"key": ""
+		},
+		"lastVisit": ""
+	},
+
+	{
+		"key": "member_4",
+		"username": "designluna",
+		"displayName": "Design Luna",
+		"useDisplayName": true,
+		"passwordHash": "$2b$10$5b/c6Is.a8nomow1dVy8A.6.Gb1FYTMfI53G1ujU7nq00.9TPUdMe",
+		"emailAddress": "luna@ultimatenodeboard.com",
+		"locale": "fr-FR",
+		"theme": "unb-default",
+		"themeMode": "light",
+		"settings": {
+			"dateTime": {
+				"timeZone": "Europe/Paris",
+				"format": {
+					"date": "dd/MM/yyyy",
+					"time": "HH:mm",
+					"full": "dd/MM/yyyy HH:mm"
+				},
+				"timeAgo": true
+			},
+			"pagination": {
+				"limit": {
+					"topics": 20,
+					"posts": 20
+				}
+			},
+			"topics": {
+				"preview": true
+			},
+			"editor": {
+				"defaultFont": "Poppins",
+				"defaultFontSize": 15,
+				"defaultFontColor": "#333333"
+			},
+			"sidebar": {
+				"posts": {
+					"enabled": true,
+					"position": "left"
+				}
+			}
+		},
+		"primaryGroup": "members",
+		"secondaryGroups": ["designers"],
+		"photo": {
+			"type": "uploaded",
+			"key": ""
+		},
+		"lastVisit": ""
+	},
+
+	{
+		"key": "member_5",
+		"username": "gamernick",
+		"displayName": "Gamer Nick",
+		"useDisplayName": true,
+		"passwordHash": "$2b$10$5b/c6Is.a8nomow1dVy8A.6.Gb1FYTMfI53G1ujU7nq00.9TPUdMe",
+		"emailAddress": "nick@ultimatenodeboard.com",
+		"locale": "en-US",
+		"theme": "unb-default",
+		"themeMode": "dark",
+		"settings": {
+			"dateTime": {
+				"timeZone": "America/Los_Angeles",
+				"format": {
+					"date": "MM/dd/yyyy",
+					"time": "hh:mm a",
+					"full": "MM/dd/yyyy hh:mm a"
+				},
+				"timeAgo": true
+			},
+			"pagination": {
+				"limit": {
+					"topics": 30,
+					"posts": 30
+				}
+			},
+			"topics": {
+				"preview": false
+			},
+			"editor": {
+				"defaultFont": "Roboto",
+				"defaultFontSize": 16,
+				"defaultFontColor": "#FFFFFF"
+			},
+			"sidebar": {
+				"posts": {
+					"enabled": true,
+					"position": "right"
+				}
+			}
+		},
+		"primaryGroup": "members",
+		"secondaryGroups": ["gamers"],
+		"photo": {
+			"type": "uploaded",
+			"key": ""
+		},
+		"lastVisit": ""
+	},
+
+	{
+		"key": "member_6",
+		"username": "adminjane",
+		"displayName": "Admin Jane",
+		"useDisplayName": true,
+		"passwordHash": "$2b$10$5b/c6Is.a8nomow1dVy8A.6.Gb1FYTMfI53G1ujU7nq00.9TPUdMe",
+		"emailAddress": "jane@ultimatenodeboard.com",
+		"locale": "en-US",
+		"theme": "unb-default",
+		"themeMode": "dark",
+		"settings": {
+			"dateTime": {
+				"timeZone": "America/Chicago",
+				"format": {
+					"date": "MM/dd/yyyy",
+					"time": "hh:mm a",
+					"full": "MM/dd/yyyy hh:mm a"
+				},
+				"timeAgo": true
+			},
+			"pagination": {
+				"limit": {
+					"topics": 50,
+					"posts": 50
+				}
+			},
+			"topics": {
+				"preview": true
+			},
+			"editor": {
+				"defaultFont": "Google Sans Flex",
+				"defaultFontSize": 15,
+				"defaultFontColor": "#FFFFFF"
+			},
+			"sidebar": {
+				"posts": {
+					"enabled": true,
+					"position": "right"
+				}
+			}
+		},
+		"primaryGroup": "administrators",
+		"secondaryGroups": null,
+		"photo": {
+			"type": "uploaded",
+			"key": ""
+		},
+		"lastVisit": ""
+	}
 ]

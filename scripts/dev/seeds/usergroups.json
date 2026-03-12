@@ -1,1 +1,127 @@
-[]
+[
+    {
+        "key": "administrators",
+        "name": "Administrator",
+        "pluralName": "Administrators",
+        "description": "TBD",
+        "sortOrder": 0,
+        "system": true,
+        "inherits": "",
+        "color": {
+            "light": {
+                "normal": { "text": "#FFFFFF", "background": "#D32F2F" },
+                "hover": { "text": "#FFFFFF", "background": "#B71C1C" }
+            },
+            "dark": {
+                "normal": { "text": "#FFFFFF", "background": "#EF5350" },
+                "hover": { "text": "#FFFFFF", "background": "#E53935" }
+            }
+        },
+        "icon": "fa-solid fa-user-tie"
+    },
+
+    {
+        "key": "moderators",
+        "name": "Moderator",
+        "pluralName": "Moderators",
+        "description": "TBD",
+        "sortOrder": 1,
+        "system": true,
+        "inherits": "",
+        "color": {
+            "light": {
+                "normal": { "text": "#FFFFFF", "background": "#1976D2" },
+                "hover": { "text": "#FFFFFF", "background": "#0D47A1" }
+            },
+            "dark": {
+                "normal": { "text": "#FFFFFF", "background": "#42A5F5" },
+                "hover": { "text": "#FFFFFF", "background": "#1E88E5" }
+            }
+        },
+        "icon": "fa-solid fa-user-shield"
+    },
+
+    {
+        "key": "members",
+        "name": "Member",
+        "pluralName": "Members",
+        "description": "TBD",
+        "sortOrder": 2,
+        "system": true,
+        "inherits": "",
+        "color": {
+            "light": {
+                "normal": { "text": "#FFFFFF", "background": "#2E7D32" },
+                "hover": { "text": "#FFFFFF", "background": "#1B5E20" }
+            },
+            "dark": {
+                "normal": { "text": "#FFFFFF", "background": "#66BB6A" },
+                "hover": { "text": "#FFFFFF", "background": "#43A047" }
+            }
+        },
+        "icon": "fa-solid fa-user"
+    },
+
+    {
+        "key": "awaiting-activation",
+        "name": "Awaiting Activation",
+        "pluralName": "Awaiting Activation",
+        "description": "TBD",
+        "sortOrder": 3,
+        "system": true,
+        "inherits": "",
+        "color": {
+            "light": {
+                "normal": { "text": "#FFFFFF", "background": "#F57C00" },
+                "hover": { "text": "#FFFFFF", "background": "#E65100" }
+            },
+            "dark": {
+                "normal": { "text": "#000000", "background": "#FFB74D" },
+                "hover": { "text": "#000000", "background": "#FB8C00" }
+            }
+        },
+        "icon": "fa-solid fa-user-clock"
+    },
+
+    {
+        "key": "banned",
+        "name": "Banned",
+        "pluralName": "Banned",
+        "description": "TBD",
+        "sortOrder": 4,
+        "system": true,
+        "inherits": "",
+        "color": {
+            "light": {
+                "normal": { "text": "#FFFFFF", "background": "#7F0000" },
+                "hover": { "text": "#FFFFFF", "background": "#5C0000" }
+            },
+            "dark": {
+                "normal": { "text": "#FFFFFF", "background": "#C62828" },
+                "hover": { "text": "#FFFFFF", "background": "#B71C1C" }
+            }
+        },
+        "icon": "fa-solid fa-user-slash"
+    },
+
+    {
+        "key": "guests",
+        "name": "Guest",
+        "pluralName": "Guests",
+        "description": "TBD",
+        "sortOrder": 5,
+        "system": true,
+        "inherits": "",
+        "color": {
+            "light": {
+                "normal": { "text": "#FFFFFF", "background": "#757575" },
+                "hover": { "text": "#FFFFFF", "background": "#424242" }
+            },
+            "dark": {
+                "normal": { "text": "#000000", "background": "#BDBDBD" },
+                "hover": { "text": "#000000", "background": "#9E9E9E" }
+            }
+        },
+        "icon": "fa-solid fa-person-circle-question"
+    }
+]
